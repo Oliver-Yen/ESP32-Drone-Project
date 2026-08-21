@@ -4602,16 +4602,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 106.68) (xy 163.83 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dae86e9-e368-4003-a66b-037fbef6116c")
-	)
-	(wire
-		(pts
 			(xy 270.51 15.24) (xy 270.51 20.32)
 		)
 		(stroke
@@ -5352,6 +5342,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 124.46) (xy 176.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd8658f-6a4e-413d-9fad-825a37f20cdb")
+	)
+	(wire
+		(pts
 			(xy 115.57 85.09) (xy 115.57 104.14)
 		)
 		(stroke
@@ -5459,16 +5459,6 @@
 			(type default)
 		)
 		(uuid "533da968-96ac-4b66-a6ff-e626997fb814")
-	)
-	(wire
-		(pts
-			(xy 187.96 106.68) (xy 187.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54be739f-2e1e-4dee-879f-734dbb5acc02")
 	)
 	(wire
 		(pts
@@ -5699,16 +5689,6 @@
 			(type default)
 		)
 		(uuid "65d7d093-b4bf-4162-a1e9-0d32945116c5")
-	)
-	(wire
-		(pts
-			(xy 120.65 99.06) (xy 128.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65dceb91-4514-48ae-91a2-aa036769256f")
 	)
 	(wire
 		(pts
@@ -6042,16 +6022,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 163.83 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80799498-5997-42c2-94f9-0740dbd23db7")
-	)
-	(wire
-		(pts
 			(xy 120.65 82.55) (xy 120.65 85.09)
 		)
 		(stroke
@@ -6242,16 +6212,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 124.46) (xy 161.29 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b94c777-9df1-4a8c-a3ff-32f913225ce0")
-	)
-	(wire
-		(pts
 			(xy 123.19 62.23) (xy 123.19 78.74)
 		)
 		(stroke
@@ -6289,16 +6249,6 @@
 			(type default)
 		)
 		(uuid "8c7df774-f380-47ad-a2e9-a9c95fb803cd")
-	)
-	(wire
-		(pts
-			(xy 119.38 101.6) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd10ae5-dcde-4935-944f-95cd48fabf4a")
 	)
 	(wire
 		(pts
@@ -7092,6 +7042,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 118.11) (xy 187.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f586cd-0c3a-48b7-96b9-6be96546d907")
+	)
+	(wire
+		(pts
 			(xy 241.3 125.73) (xy 245.11 125.73)
 		)
 		(stroke
@@ -7379,6 +7339,16 @@
 			(type default)
 		)
 		(uuid "d5250d52-9a90-4c7e-a037-2e7234efc4da")
+	)
+	(wire
+		(pts
+			(xy 161.29 124.46) (xy 176.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61fc938-f95c-46d3-84ec-04f09b8c5056")
 	)
 	(wire
 		(pts
@@ -7719,6 +7689,16 @@
 			(type default)
 		)
 		(uuid "eb5832bd-38a0-47f9-ba23-b7741d35f8b3")
+	)
+	(wire
+		(pts
+			(xy 176.53 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf3ba59-90aa-4a64-916d-da3a41dd7bb2")
 	)
 	(wire
 		(pts
@@ -11208,85 +11188,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cd94f7e-fbce-49fe-92db-89c99ed636b1")
-		(property "Reference" "TP43"
-			(at 123.19 94.4879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 123.19 97.0279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 125.73 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9f08ecb-08fa-4892-b8f4-10dfa1d99527")
-		)
-		(instances
-			(project "ESP32-drone-project 1.00"
-				(path "/45b53192-fb3d-44c0-991c-2a764fde92d6"
-					(reference "TP43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 185.42 50.8 0)
 		(unit 1)
@@ -11704,164 +11605,6 @@
 			(project "ESP32-drone-project 1.00"
 				(path "/45b53192-fb3d-44c0-991c-2a764fde92d6"
 					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83b67f82-9176-4f97-8c00-b67b58d5065c")
-		(property "Reference" "TP44"
-			(at 121.92 97.0279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 121.92 99.5679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72df6a65-6b5c-46e7-9829-7d10f806e9f1")
-		)
-		(instances
-			(project "ESP32-drone-project 1.00"
-				(path "/45b53192-fb3d-44c0-991c-2a764fde92d6"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 163.83 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90833744-4b80-4246-b28c-84431b39c443")
-		(property "Reference" "TP39"
-			(at 166.37 89.4079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 166.37 91.9479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 163.83 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8eff108-14d0-4d5d-aae8-8fe6c4ebf1e8")
-		)
-		(instances
-			(project "ESP32-drone-project 1.00"
-				(path "/45b53192-fb3d-44c0-991c-2a764fde92d6"
-					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -13447,85 +13190,6 @@
 			(project "ESP32-drone-project 1.00"
 				(path "/45b53192-fb3d-44c0-991c-2a764fde92d6"
 					(reference "TP46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 163.83 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d51818a4-96bc-486c-9d1c-c944c233cddc")
-		(property "Reference" "TP38"
-			(at 166.37 102.1079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 166.37 104.6479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 163.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69d26b2c-15e0-48a1-92f8-d6a65046179f")
-		)
-		(instances
-			(project "ESP32-drone-project 1.00"
-				(path "/45b53192-fb3d-44c0-991c-2a764fde92d6"
-					(reference "TP38")
 					(unit 1)
 				)
 			)
